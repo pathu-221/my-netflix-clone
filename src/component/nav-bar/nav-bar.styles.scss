@@ -1,0 +1,55 @@
+.nav {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    top: 0;
+    justify-content: space-between;
+    z-index: 1000;
+    background: transparent;
+}
+
+.netflix-logo {
+    align-items: center;
+    display: flex;
+}
+
+a {
+    color: white; 
+    text-decoration: none;
+    font-weight: 600;
+    margin: 15px;
+}
+
+
+.nav-logo {
+    width: 100px;
+    max-height: 80px;
+    padding-top: -20px;
+    //left: 20px;
+    cursor: pointer;
+    object-fit: contain;
+
+}
+
+.user-profile {
+    margin-right: 40px;
+    display: flex;
+}
+
+.sign-out {
+    cursor: pointer;
+    &:hover{
+        color: lightgrey;
+
+    }
+}
+
+.nav-avatar {
+    cursor: pointer;
+    top: 30px;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+    margin-right: 40px;
+}

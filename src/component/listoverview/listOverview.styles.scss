@@ -1,0 +1,18 @@
+.item-container {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+}
+
+.item-container::-webkit-scrollbar{
+    display: none;
+}
+
+.mySwiper {
+    padding: 20px;
+}
+
+.heading {
+    margin-left: 25px;
+}
